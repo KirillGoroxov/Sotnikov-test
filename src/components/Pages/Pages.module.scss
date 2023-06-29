@@ -1,0 +1,11 @@
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+  margin: 20px auto;
+  justify-content: center;
+  span {
+    cursor: pointer;
+    padding: 12px;
+  }
+}

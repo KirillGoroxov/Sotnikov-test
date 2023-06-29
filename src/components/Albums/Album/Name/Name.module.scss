@@ -1,0 +1,47 @@
+.name {
+  font-weight: 700;
+  background-color: #a19ac9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  position: relative;
+  input {
+    background-color: #a19ac9;
+    font-size: 24px;
+    color: #1e2d5f;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 -5px;
+  }
+  img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    filter: invert(14%) sepia(17%) saturate(1831%) hue-rotate(160deg)
+      brightness(89%) contrast(91%);
+  }
+  .label {
+    .fakeCheck {
+      position: absolute;
+      top: 10px;
+      border-radius: 3px;
+      right: 10px;
+      width: 20px;
+      height: 20px;
+      background-color: #615a8a;
+      cursor: pointer;
+      img {
+        filter: invert(84%) sepia(20%) saturate(390%) hue-rotate(204deg)
+          brightness(104%) contrast(103%);
+        width: 15px;
+        position: absolute;
+        left: 3px;
+      }
+    }
+  }
+  .checkbox {
+    display: none;
+  }
+}

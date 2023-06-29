@@ -1,0 +1,45 @@
+.name {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #a19ac9;
+  font-weight: 700;
+  color: #1e2d5f;
+  position: relative;
+  .label {
+    .fakeCheck {
+      position: absolute;
+      top: 18px;
+      border-radius: 3px;
+      right: 18px;
+      width: 20px;
+      height: 20px;
+      background-color: #615a8a;
+      cursor: pointer;
+      img {
+        filter: invert(84%) sepia(20%) saturate(390%) hue-rotate(204deg)
+          brightness(104%) contrast(103%);
+        width: 15px;
+        position: absolute;
+        left: 3px;
+      }
+    }
+  }
+  .checkbox {
+    display: none;
+  }
+  input {
+    background-color: #a19ac9;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1e2d5f;
+    text-align: center;
+  }
+  img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    filter: invert(14%) sepia(17%) saturate(1831%) hue-rotate(160deg)
+      brightness(89%) contrast(91%);
+  }
+}

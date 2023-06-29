@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  background-image: url("./../images/background.png");
+  font-family: "Roboto Condensed", sans-serif;
+}
+input {
+  font-family: "Roboto Condensed", sans-serif;
+  border: none;
+  outline: none;
+}
+textarea {
+  font-family: "Roboto Condensed", sans-serif;
+  border: none;
+  resize: none;
+  outline: none;
+}
+select {
+  border: none;
+  outline: none;
+  font-family: "Roboto Condensed", sans-serif;
+}

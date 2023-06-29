@@ -1,0 +1,18 @@
+.addContainer {
+  width: 400px;
+  margin: 0 auto;
+}
+.add {
+  width: 250px;
+  height: 40px;
+  background-color: rgb(38, 68, 94);
+  text-align: center;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  img {
+    width: 40px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(19deg)
+      brightness(103%) contrast(101%);
+  }
+}

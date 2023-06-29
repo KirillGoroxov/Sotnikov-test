@@ -1,0 +1,39 @@
+.addContainer {
+  width: 250px;
+  background-color: rgb(38, 68, 94);
+  margin: 0 auto 20px;
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(19deg)
+      brightness(103%) contrast(101%);
+    cursor: pointer;
+  }
+  .add {
+    width: 250px;
+    background-color: rgb(38, 68, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    img {
+      width: 40px;
+    }
+  }
+  .input {
+    img {
+      width: 20px;
+      padding: 7px 0 0 20px;
+    }
+    input {
+      height: 30px;
+      width: 180px;
+      background-color: rgb(38, 68, 94);
+      color: #fff;
+      font-size: 24px;
+      padding: 5px;
+      font-weight: 300;
+    }
+  }
+}

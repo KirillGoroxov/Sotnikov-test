@@ -1,0 +1,50 @@
+.filter {
+  font-weight: 300;
+  font-size: 16px;
+  .title {
+    background-color: rgb(38, 68, 94);
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .select {
+    height: 30px;
+    display: block;
+    font-size: 16px;
+    padding: 0 5px;
+    border-radius: 4px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #152e3d;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 300;
+    option {
+      font-weight: 300;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .active {
+      background-color: rgb(154, 169, 255);
+      color: #000;
+    }
+    span {
+      cursor: pointer;
+      background-color: #152e3d;
+      margin: 10px;
+      color: white;
+      padding: 5px;
+      border-radius: 4px;
+    }
+  }
+}

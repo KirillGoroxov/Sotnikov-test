@@ -1,0 +1,26 @@
+.add {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(154, 169, 255, 0.829);
+  height: 60px;
+  border-radius: 5px 5px 0 0;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  button {
+    background-color: rgb(45, 68, 116);
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin: 0 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

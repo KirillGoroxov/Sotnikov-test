@@ -1,0 +1,19 @@
+.label {
+  .fakeCheck {
+    border-radius: 3px;
+    margin-right: 7px;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(154, 169, 255);
+    cursor: pointer;
+    img {
+      filter: invert(23%) sepia(79%) saturate(452%) hue-rotate(182deg)
+        brightness(90%) contrast(91%);
+      width: 14px;
+      margin: 0 0 2px 2px;
+    }
+  }
+}
+.checkbox {
+  display: none;
+}

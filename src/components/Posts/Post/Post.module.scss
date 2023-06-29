@@ -1,0 +1,13 @@
+.post {
+  width: 400px;
+  font-size: 20px;
+  background-color: rgb(38, 68, 94);
+  color: #fff;
+  border-radius: 7px;
+  overflow: hidden;
+  margin: 10px;
+  align-self: start;
+  @media (max-width: 520px) {
+    width: 300px;
+  }
+}

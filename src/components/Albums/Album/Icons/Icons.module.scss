@@ -1,0 +1,14 @@
+.icons {
+  display: flex;
+  justify-content: space-between;
+  .all {
+    filter: invert(100%) sepia(0%) saturate(7404%) hue-rotate(223deg)
+      brightness(130%) contrast(101%);
+  }
+  img {
+    margin: 15px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+}

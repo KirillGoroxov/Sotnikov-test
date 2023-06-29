@@ -1,0 +1,11 @@
+.link {
+  transition: 300ms;
+  a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: 300ms;
+  }
+}

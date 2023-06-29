@@ -1,0 +1,17 @@
+.comment {
+  font-weight: 300;
+  background-color: rgb(37, 55, 71);
+  .name {
+    font-weight: 700;
+    background-color: rgb(7, 19, 31);
+    padding: 0 10px;
+  }
+  .email {
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+  }
+  .body {
+    padding: 10px;
+  }
+}

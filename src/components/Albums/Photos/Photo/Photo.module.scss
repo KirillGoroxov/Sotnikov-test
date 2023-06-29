@@ -1,0 +1,47 @@
+.photo {
+  width: 200px;
+  margin: 20px 0;
+  overflow: hidden;
+  img {
+    border-radius: 10px;
+    width: 100%;
+    cursor: zoom-in;
+  }
+  .title {
+    text-align: center;
+    font-size: 20px;
+    background-color: #a19ac9;
+    color: #1e2d5f;
+    font-weight: 300;
+    border-radius: 5px;
+  }
+}
+.modal {
+  cursor: pointer;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(75, 75, 75, 0.452);
+  .cross {
+    width: 50px;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    filter: invert(18%) sepia(22%) saturate(7109%) hue-rotate(248deg)
+      brightness(95%) contrast(151%);
+  }
+  img {
+    border-radius: 20px;
+    @media (max-width: 800px) {
+      width: 400px;
+    }
+    @media (max-width: 420px) {
+      width: 300px;
+    }
+  }
+}

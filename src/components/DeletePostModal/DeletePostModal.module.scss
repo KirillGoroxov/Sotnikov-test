@@ -1,0 +1,30 @@
+.modalWindow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(75, 75, 75, 0.452);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .warning {
+    width: 320px;
+    height: 170px;
+    font-size: 24px;
+    color: #0f1b4e;
+    background-color: rgb(154, 169, 255);
+    padding-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    button {
+      border-radius: 5px;
+      margin: 20px 30px;
+      width: 80px;
+      height: 40px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

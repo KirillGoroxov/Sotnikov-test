@@ -1,0 +1,32 @@
+.task {
+  font-size: 20px;
+  background-color: rgb(38, 68, 94);
+  width: 300px;
+  margin: 10px;
+  color: #fff;
+  font-weight: 300;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  min-height: 35px;
+  .cross {
+    width: 20px;
+  }
+  input {
+    background-color: rgb(38, 68, 94);
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    width: 270px;
+  }
+  img {
+    width: 20px;
+    filter: invert(85%) sepia(39%) saturate(7165%) hue-rotate(199deg)
+      brightness(107%) contrast(101%);
+    margin: 0 10px;
+  }
+}
