@@ -23,8 +23,8 @@ const Post = (props) => {
   const [edit, setEdit] = useState(false);
   // Открытие комментариев
   const [comments, setComments] = useState(null);
+  const API_URL = "https://jsonplaceholder.typicode.com";
   useEffect(() => {
-    const API_URL = "https://jsonplaceholder.typicode.com";
     if (props.userId < 11) {
       axios.get(API_URL + `/users/${props.userId}`).then((response) => {
         if (!globalEdit) {
